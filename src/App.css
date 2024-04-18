@@ -1,0 +1,126 @@
+#root {
+
+  
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(28, 26, 26);
+  background-size: cover;
+  width: 100%;
+
+}
+header{
+  line-height: 50%;
+  text-align: center;
+}
+body{
+  background-color: rgb(28, 26, 26);
+  padding: 0;
+  margin: 0;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  background-color: rgba(18, 18, 18, 0.79);
+}
+footer i{
+  color: rgb(187, 181, 181);
+  font-size: 35px;
+  margin: 10px;
+}
+h3{
+  color: rgb(187, 181, 181);
+}
+.int-ab{
+  color: rgb(187, 181, 181);
+  font-size: 15px;
+}
+.cont{
+  width: 40%;
+  margin: auto;
+}
+.btns{
+  display: flex;
+  justify-content: center;
+}
+.btns button{
+  width: 180px;
+  height: 40px;
+  margin: 15px;
+  border-radius: 10px;
+  font-size: 15px;
+  border: none;
+}
+.linkden{
+  background-color: rgb(16, 128, 198);
+  color: white;
+}
+i{
+  padding-right: 5px;
+}
+
+.career{
+  color: rgb(88, 88, 47);
+}
+.span a{
+  font-size: 13px;
+  color: gray;
+  text-decoration: none;
+}
+
+h2{
+  color: white;
+}
+.image{
+  width: 500px;
+  height: 350px;
+}
+
+@media screen and (max-width:600px) {
+  .image{
+    width: 100%;
+  }
+  .cont{
+    width: 100%;
+  }
+  .btns{
+    margin: auto;
+  }
+  .btns button{
+   
+    margin: 5px;
+  
+  }
+  .int-ab, h3{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .int-ab{
+    padding-bottom: 20px;
+  }
+
+}
+
+@media screen and (max-width:1000px) {
+  .image{
+    width: 100%;
+  }
+  .cont{
+    width: 100%;
+  }
+  .btns{
+    margin: auto;
+  }
+  .btns button{
+   
+    margin: 5px;
+  
+  }
+  .int-ab, h3{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .int-ab{
+    padding-bottom: 20px;
+  }
+
+}
+
